@@ -39,28 +39,76 @@ class ViewController: UIViewController {
         button1.isEnabled = false
     }
     @IBAction func button2tapped(_ sender: Any) {
-        print("button 2 tapped")
+        if isXturn {
+            button2.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button2.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button2.isEnabled = false
     }
     @IBAction func button3tapped(_ sender: Any) {
-        print("button 3 tapped")
+        if isXturn {
+            button3.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button3.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button3.isEnabled = false
     }
     @IBAction func button4tapped(_ sender: Any) {
-        print("button 4 tapped")
+        if isXturn {
+            button4.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button4.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button4.isEnabled = false
     }
     @IBAction func button5tapped(_ sender: Any) {
-        print("button 5 tapped")
+        if isXturn {
+            button5.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button5.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button5.isEnabled = false
     }
     @IBAction func button6tapped(_ sender: Any) {
-        print("button 6 tapped")
+        if isXturn {
+            button6.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button6.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button6.isEnabled = false
     }
     @IBAction func button7tapped(_ sender: Any) {
-        print("button 7 tapped")
+        if isXturn {
+            button7.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button7.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button7.isEnabled = false
     }
     @IBAction func button8tapped(_ sender: Any) {
-        print("button 8 tapped")
+        if isXturn {
+            button8.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button8.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button8.isEnabled = false
     }
     @IBAction func button9tapped(_ sender: Any) {
-        print("button 9 tapped")
+        if isXturn {
+            button9.setBackgroundImage(#imageLiteral(resourceName: "x"), for: .normal)
+        } else {
+            button9.setBackgroundImage(#imageLiteral(resourceName: "o"), for: .normal)
+        }
+        isXturn = !isXturn
+        button9.isEnabled = false
     }
     
 }
